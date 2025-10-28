@@ -36,7 +36,7 @@ public class conditionalization {
             System.out.println("Tidak lulus lulus");
         }
 
-        if (nilaiInggris > 90 && nilaiFisika < 75) {
+        if (nilaiInggris > 90 || nilaiFisika < 75) {
             System.out.println("Cerdas");
         } else {
             System.out.println("KURANG belAJAR");
